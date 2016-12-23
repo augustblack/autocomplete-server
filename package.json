@@ -1,0 +1,23 @@
+{
+  "name": "autocomplete-server",
+  "version": "1.0.0",
+  "description": "Test server to autocomplete words",
+  "main": "server.coffee",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.2",
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/coffee-script/bin/coffee server.coffee"
+  },
+  "keywords": [
+    "autocomplete",
+    "server"
+  ],
+  "author": "August Black",
+  "license": "ISC"
+}
