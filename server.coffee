@@ -29,7 +29,6 @@ app.get '/word/:term',
       return reg.test w
     page = 0
     page = parseInt req.query.page if req.query.page
-    console.log(page, req.query.page)
     return next new Error "bad page #{page}" if page is NaN or page is null
     perPage = 10
     perPage = parseInt req.query.perPage if req.query.perPage
